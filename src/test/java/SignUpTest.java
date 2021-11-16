@@ -15,7 +15,8 @@ public class SignUpTest {
 
 // Ввести 5 цифр
         WebElement zipCodeInput = driver.findElement(By.name("zip_code"));
-        zipCodeInput.sendKeys("12345");
+
+         zipCodeInput.sendKeys("12345");
 // Нажимаем кнопку Continue
         WebElement continueButton = driver.findElement(By.cssSelector("[value=Continue]"));
         continueButton.click();
